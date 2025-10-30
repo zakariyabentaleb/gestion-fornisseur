@@ -11,4 +11,5 @@ public interface  fournisseurRepository extends JpaRepository<fournisseur,Intege
 
     @Query("SELECT fr FROM fournisseur fr WHERE fr.email ILIKE  %?1")
     public fournisseur findByEmail(String email);
+
 }

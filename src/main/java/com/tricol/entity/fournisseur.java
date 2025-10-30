@@ -3,6 +3,7 @@ import jakarta.persistence.*;
 
 
 @Entity
+//jai fixer un bug
 @Table(name = "fournisseur")
 public class fournisseur {
 
